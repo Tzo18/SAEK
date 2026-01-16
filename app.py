@@ -12,6 +12,5 @@ def home():
         else:
             msg = "Λάθος χρήστης"
     return render_template("index.html", msg=msg)
-
-if__name__=="__main__"
+        if__name__=="__main__":
 app.run()
